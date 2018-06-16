@@ -13,7 +13,7 @@ function dbconnect(){
   return $con;
 }
 }
-$obconi=new database();
+$obcon=new database();
 $con=$obcon->dbconnect();
 
 ?>
